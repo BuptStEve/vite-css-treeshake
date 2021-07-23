@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
   "dependencies": {
     "vue": "^2.6.11"
   },
+  "sideEffects": [
+    "*.css",
+    "src/components/a/index.js",
+    "src/components/b/index.js"
+  ],
   "devDependencies": {
     "@vue/cli-service": "~5.0.0-beta.2",
     "vue-template-compiler": "^2.6.11"
