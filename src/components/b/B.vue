@@ -1,6 +1,6 @@
 <template>
   <div class="b">
-    should be red
+    should be yellow
   </div>
 </template>
 
